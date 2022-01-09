@@ -9,7 +9,6 @@ import (
 	"io/ioutil"  
 )
 
-
 func SearchBeers(w http.ResponseWriter, req *http.Request){
 	//Simplemente devuelvo todo lo que tenga en el array
 	w.Header().Set("Content-Type", "application/json")
@@ -136,6 +135,5 @@ func SearchBeerById(w http.ResponseWriter, req *http.Request){
           }
     } 
     http.Error(w,"El Id de la cerveza no existe", http.StatusNotFound)
-
   }
 
