@@ -1,4 +1,4 @@
-module test-falabella
+module github.com/baemestrada-source/falabella
 
 go 1.17
 
