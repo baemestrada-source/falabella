@@ -33,6 +33,8 @@ https://bitbucket.org/lgaetecl/microservices-test/src/master/openapi.yaml  donde
 ## Ejecutando las pruebas ⚙️
 
 Se desarrollaron exactamente los mismos EndPoint solicitados que son
+
+
 GET /beers --Consulta de todas las cervezas
 
 
