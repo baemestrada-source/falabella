@@ -26,8 +26,6 @@ func TestGetRequest(t *testing.T) {
     r, _ := http.NewRequest("GET", "/beers/beerID/boxprice?currency="+curr+"&quantity="+quan, nil)
     w := httptest.NewRecorder()
 
-
-    //Hack to try to fake gorilla/mux vars
     vars := map[string]string{
         "beerID": "1",
 	}

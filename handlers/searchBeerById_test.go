@@ -29,8 +29,6 @@ func TestGetBeerByIdExits(t *testing.T) {
 
     assert.Equal(t, http.StatusOK, w.Code)
 
-	//t.Error(w.Body.String())
-    //assert.Equal(t, []byte("beerID"), w.Body.Bytes())
 }
 ////Valida el retorno de cuando si encuentra un registro codigo 404
 func TestGetBeerByIdNotExits(t *testing.T) {
