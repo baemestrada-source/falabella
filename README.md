@@ -7,9 +7,14 @@ Bender es fanático de las cervezas y quiere tener un registro de todas las cerv
 Siempre el proyecto para que si no se desea montar localmente pueden consultar a las siguientes rutas la funcionalidad de cada API
 
 GET -  https://falabella-test.herokuapp.com/beers
+
 GET -  https://falabella-test.herokuapp.com/beers/{BeerID}
+
 POST - https://falabella-test.herokuapp.com/beers
+
 GET -  https://falabella-test.herokuapp.com/beers/{BeerID}/boxprice
+
+
 
 ## Comenzando 🚀
 
