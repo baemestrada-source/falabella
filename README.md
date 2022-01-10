@@ -1,6 +1,6 @@
-# Título del Proyecto
-
-_Acá va un párrafo que describa lo que es el proyecto_
+# Prueba tecnica Falabella
+Desarrollo de APIs 
+Bender es fanático de las cervezas y quiere tener un registro de todas las cervezas que prueba y como calcular el precio que necesita para comprar una caja de algún tipo especifico de cervezas. Para esto necesita una API REST con esta información que posteriormente compartirá con sus amigos.
 
 ## Comenzando 🚀
 
@@ -11,29 +11,24 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
-
-```
-Da un ejemplo
-```
+Instalacion de Docker
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
-_Dí cómo será ese paso_
-
+Primeramenente debo de clonar el proyecto y ejecutar el siguiente comando para crear mi imagen de docker en base al archivo docker-compose utilizando el -d para que este levantado el servicio como un demon
 ```
-Da un ejemplo
+docker-compose up -d
 ```
 
-_Y repite_
+Si deseo visualizar con la siguiente instruccion
 
 ```
-hasta finalizar
+docker-compose ps
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+para realizar las validaciones puedo utilizar postman siguiendo las indicaciones de el archivo orignal de la prueba
+https://bitbucket.org/lgaetecl/microservices-test/src/master/openapi.yaml  donde puedo validar como debo ejecutar y que respuestas esperar
+
 
 ## Ejecutando las pruebas ⚙️
 
