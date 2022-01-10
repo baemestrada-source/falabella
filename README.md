@@ -45,10 +45,17 @@ Se realizo las validaciones en con GO test y se genero un archivo llamado cover.
 se puede tener el total de cobertura de proyecto en este caso estos fueron los valores devueltos por cada end-point
 
 github.com/baemestrada-source/falabella/handlers/addBeers.go:10:                AddBeers                100.0%
+
+
 github.com/baemestrada-source/falabella/handlers/boxBeerPriceById.go:13:        BoxBeerPriceById        82.4% 
+
+
 github.com/baemestrada-source/falabella/handlers/searchBeerById.go:12:          SearchBeerById          100.0%
+
 github.com/baemestrada-source/falabella/handlers/searchBeers.go:9:              SearchBeers             100.0%
+
 Total:                                                                                                  89.8% 
+
 
 ```
 go tool cover -func cover.out
@@ -73,8 +80,11 @@ Siempre el proyecto para que si no se desea montar localmente pueden consultar a
 
 Se utilizo lenguaje GO y algunas librerias como 
 
-github.com/gorilla/mux v1.8.0  -- sirve para facilitar el ruteo de mis end-point
+github.com/gorilla/mux v1.8.0  -- sirve para facilitar el ruteo de mis end-point 
+
+
 github.com/stretchr/testify v1.7.0 -- sirve para utilizar assert en el desarrollo de testeos y evitar hacer IF por cada validacion
+
 
 el resto es propio de GO
 
