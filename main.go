@@ -8,6 +8,10 @@ import (
   "github.com/baemestrada-source/falabella/routers"
 )
 
+type LocationResponse struct {
+	Country string `json:"country"`
+}
+
 func main() {
   router := mux.NewRouter()
   
