@@ -78,7 +78,7 @@ se logro en base a la moneda de USD que es el unico source autorizado de forma g
 https://api.currencylayer.com/live?access_key=YOUR_ACCESS_KEY
 ```
 
-## PUBLICACION EN HEROKU  📦
+## Rest en Heroku  📦
 
 Siempre el proyecto para que si no se desea montar localmente pueden consultar a las siguientes rutas
 

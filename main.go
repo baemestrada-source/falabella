@@ -6,6 +6,8 @@ import (
   "github.com/gorilla/mux"
   "github.com/baemestrada-source/falabella/models"
   "github.com/baemestrada-source/falabella/routers"
+  "github.com/rs/cors"
+  "os"
 )
 
 type LocationResponse struct {
@@ -25,6 +27,11 @@ func main() {
   //log 
   log.Println("Servidor corriendo en el puerto 4000")
 
-  //escucha del servidor
-  log.Fatal(http.ListenAndServe(":4000", router))
+  PORT := os.Getenv("PORT")
+	if PORT == "" {
+		PORT = "4000"
+	}
+	handler := cors.AllowAll().Handler(router)
+	log.Fatal(http.ListenAndServe(":"+PORT, handler))
+
 }
