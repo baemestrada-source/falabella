@@ -34,8 +34,12 @@ https://bitbucket.org/lgaetecl/microservices-test/src/master/openapi.yaml  donde
 
 Se desarrollaron exactamente los mismos EndPoint solicitados que son
 GET /beers --Consulta de todas las cervezas
+
+
 GET /beers/{BeerId} --aqui debo colocar el ID que quiero consultar
+
 POST /beers - debo colocar en el body en formato json los valores segun el archivo de especificacion de swanger version 3.0 
+
 GET /beers/{BeerId}/boxprice --aqui debo colocar 2 variables tipo query que son la moneda que deseo pagar, y la cantidad que deseo validar por default es 6
 
 
