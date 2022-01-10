@@ -2,6 +2,15 @@
 Desarrollo de APIs 
 Bender es fanático de las cervezas y quiere tener un registro de todas las cervezas que prueba y como calcular el precio que necesita para comprar una caja de algún tipo especifico de cervezas. Para esto necesita una API REST con esta información que posteriormente compartirá con sus amigos.
 
+## Rest en Heroku  📦
+
+Siempre el proyecto para que si no se desea montar localmente pueden consultar a las siguientes rutas la funcionalidad de cada API
+
+GET -  https://falabella-test.herokuapp.com/beers
+GET -  https://falabella-test.herokuapp.com/beers/{BeerID}
+POST - https://falabella-test.herokuapp.com/beers
+GET -  https://falabella-test.herokuapp.com/beers/{BeerID}/boxprice
+
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
@@ -77,10 +86,6 @@ se logro en base a la moneda de USD que es el unico source autorizado de forma g
 ```
 https://api.currencylayer.com/live?access_key=YOUR_ACCESS_KEY
 ```
-
-## Rest en Heroku  📦
-
-Siempre el proyecto para que si no se desea montar localmente pueden consultar a las siguientes rutas
 
 ## Construido con 🛠️
 
